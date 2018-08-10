@@ -3,7 +3,7 @@
 def gcd(m,n):
   #let assume m >n
   if m<n :
-    (m,n)=(n,m)
+    (m,n)=(n,m) #swap values
 
   if (m%n==0):
     return n
